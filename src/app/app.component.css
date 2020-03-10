@@ -1,0 +1,54 @@
+.icon {
+    width: 100px;
+    height: 64px;
+}
+.container {
+  margin-bottom: 20px;
+  margin-left: 800px;
+}
+
+/* AppComponent's private CSS styles */
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+.nav-item a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+.nav-item a:visited, a:link {
+  color: #334953;
+}
+.nav-item a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+.nav-item a.active {
+  color: #cfd8dc;
+  background-color: #039be5;
+}
+
+.jumbotron {
+  background-image:url('https://s3-us-east-2.amazonaws.com/tileletter-media/wp-content/uploads/2018/06/20124011/Banner_Roads-860x280.jpg');
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:1px solid #ff6a00;
+  color: black;
+  margin-top: 0px;
+}
+
+h1 {
+color: white;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+font-size: 75px;
+}

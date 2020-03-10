@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Car } from './car';
+import { CarService } from './car.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'project3';
+  cars: Car[];
+
+  constructor(private carService: CarService) { }
+
+  ngOnInit() {
+   
+  }
+
 }

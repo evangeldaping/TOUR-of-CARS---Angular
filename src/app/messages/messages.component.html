@@ -1,0 +1,12 @@
+<div class="container" *ngIf="messageService.messages.length">    
+    <ul class="list-group">
+        <li class="list-group-item active">
+            <h2>Messages</h2>
+            <button class="clear" (click)="messageService.clear()">clear</button></li>
+        <li class="list-group-item">
+            <div *ngFor='let message of messageService.messages'>{{message}} </div>
+        </li>
+    </ul>
+</div>
+
+

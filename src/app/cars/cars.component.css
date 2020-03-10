@@ -1,0 +1,79 @@
+/* HeroesComponent's private CSS styles */
+.icon {
+  width: 60px;
+  height: 50px;
+}
+.cars {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .cars li {
+    position: relative;
+    cursor: pointer;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  
+  .cars li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+  
+  .cars a {
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 250px;
+  }
+  
+  .cars a:hover {
+    color:#607D8B;
+  }
+  
+  .cars .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#405061;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 2em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .card {
+      float: left;
+      margin-left: 45px;
+      margin-top: 50px;
+  }
+  
+  /*
+  Copyright Google LLC. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at http://angular.io/license
+  */

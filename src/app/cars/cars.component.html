@@ -1,0 +1,34 @@
+  <!-- (click) passes input value to add() and then clears the input -->
+  <br/>
+  <p>
+    <label>
+      <input #carMake />
+    </label><br/>
+    <button (click)="add(carMake.value); carMake.value=''">
+      Add Car
+    </button>
+  </p>
+
+
+<div class="card" style="max-width: 20rem;" *ngFor="let car of cars">
+  <img class="imageClass card-img-top zoom" [src]="car.photoPath" /> 
+  <div class="card-body">
+    <h5 class="card-title">{{car.model}}</h5>
+    <ul class="cars">
+      <li>
+        <a routerLink="/detail/{{car.id}}">
+          <span class="badge">{{car.id}}</span>overview {{car.make}}
+        </a>
+        <button class="delete" title="delete car"
+        (click)="delete(car)">x</button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-footer">
+    <marquee><img src="assets/car.png" class="icon"><img src="assets/sale.png" class="icon"></marquee>
+  </div>
+</div>
+
+
+
+

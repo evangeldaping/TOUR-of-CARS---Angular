@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="card mb-3" style="width: 100rem;" *ngIf="car">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <img class="card-img-top imageClass " name="photoPath" [src]="car.photoPath"/>  
+           
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+                <h5 class="card-title">{{car.model | uppercase}}<br/></h5>
+                <p>{{car.description}}</p>
+                <br/>
+                <ul class="list-group">
+                  <li class="list-group-item active">Change Details</li>
+                  <li class="list-group-item"><div><p>id:</p>          <input [(ngModel)]="car.id"          placeholder="id" disabled/></div></li>
+                  <li class="list-group-item"><div><p>make:</p>        <input [(ngModel)]="car.make"        placeholder="make"></div></li>
+                  <li class="list-group-item"><div><p>model:</p>       <input [(ngModel)]="car.model"       placeholder="model"/></div></li>
+                  <li class="list-group-item"><div><p>description:</p> <input [(ngModel)]="car.description" placeholder="description"/></div></li>   
+                  <li class="list-group-item"><div><p>year:</p>        <input [(ngModel)]="car.year"        placeholder="year"/></div></li>                
+                  <li class="list-group-item"><div><p>photoPath:</p>   <input [(ngModel)]="car.photoPath"   placeholder="paste image address only"></div></li>          
+                </ul>           
+                <button class="button" (click)="goBack()">go back</button>
+                <button class="button" (click)="save()">save</button>
+            </div>
+          </div>
+        </div>
+    </div>     
+</div>
+

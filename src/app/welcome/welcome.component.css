@@ -1,0 +1,15 @@
+/* .jumbotron {
+    background-image:url('https://s3-us-east-2.amazonaws.com/tileletter-media/wp-content/uploads/2018/06/20124011/Banner_Roads-860x280.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:1px solid #ff6a00;
+    color: black;
+    margin-top: 0px;
+  } */
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 75px;
+  }

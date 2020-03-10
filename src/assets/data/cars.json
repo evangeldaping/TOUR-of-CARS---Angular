@@ -1,0 +1,46 @@
+[
+    {
+    "id": 1,
+    "make": "Acura",
+    "model": "Acura RSX",      
+    "year": 2004,
+    "description": "Acura Series",
+    "photoPath": "assets/addCar.png"
+    },
+
+    {
+    "id": 2,
+    "make": "BMW",
+    "model": "BMW M4 Coupe", 
+    "year": 2017,
+    "description": "BMW Series",
+    "photoPath": "assets/addCar.png"
+    },
+    
+    {
+    "id": 3,
+    "make": "Mitsubishi",
+    "model": "Mitsubishi Montero Sport",   
+    "year": 2010,
+    "description": "Mitsubishi Series", 
+    "photoPath": "assets/addCar.png"
+    }, 
+
+    {
+    "id": 4,
+    "make": "Toyota",
+    "model": "Toyota Camry 99",     
+    "year": 2005,
+    "description": "Toyota Series",
+    "photoPath": "assets/addCar.png"
+    }, 
+
+    {
+    "id": 5,
+    "make": "Honda",
+    "model": "Honda CR-V",     
+    "year": 2000,
+    "description": "Honda Series",
+    "photoPath": "assets/addCar.png"
+    }
+]
